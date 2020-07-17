@@ -9,32 +9,31 @@
   --primari-social-network-color: #afb1b8; /*Главный цвет соцсетей*/
   --timing-function-bezier: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+/*Ok*/
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-  /* font-weight: 400; */
+  font-weight: 400;
 }
 
-/*Conteiner*/
+/*Conteiner ok*/
 .conteiner {
-  /* outline: 2px solid blueviolet; */
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 }
-
+/*Ok*/
 .list {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-
+/*Ok*/
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -45,7 +44,7 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+/*Ok*/
 .img {
   display: block;
   max-width: 100%;
@@ -98,7 +97,7 @@ body {
   color: var(--accent-color);
 }
 
-/*Page-header*/
+/*Page-header ok*/
 .page-header {
   z-index: 1;
   position: fixed;
@@ -109,16 +108,16 @@ body {
 
   background-color: var(--primary-bg-color);
 }
-
+/*Ok*/
 .header-portfolio {
   border-bottom: 1px solid #ececec;
 }
-
+/*Ok*/
 .header-main-nav {
   display: flex;
 }
 
-/*Main-nav*/
+/*Main-nav ok*/
 .main-nav {
   display: flex;
   align-items: center;
@@ -132,14 +131,8 @@ body {
 }
 
 .site-nav .site-nav-item + .site-nav-item {
-  /* outline: 1px solid blueviolet; */
   margin-left: 50px;
 }
-
-/* .site-nav .item:not(:last-child) {
-  outline: 1px solid blueviolet;
-  margin-right: 50px;
-} */
 
 .site-nav-item .link {
   /*Сначало геометрия*/
@@ -237,7 +230,6 @@ body {
 
 /* Hero */
 .hero {
-  /* outline: 2px solid blueviolet; */
   padding-top: 200px;
   padding-bottom: 200px;
   background-image: linear-gradient(
