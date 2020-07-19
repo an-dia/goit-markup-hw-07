@@ -107,11 +107,11 @@ body {
   margin-left: 50px;
 }
 
-.current {
+.site-nav-item .current {
   color: #2196f3;
 }
 
-.current::before {
+.site-nav-item .current::before {
   content: '';
   position: absolute;
   bottom: 0;
