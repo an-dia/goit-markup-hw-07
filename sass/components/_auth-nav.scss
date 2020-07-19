@@ -6,11 +6,6 @@
   &-item + &-item {
     margin-left: 30px;
   }
-
-  &-link:hover,
-  &-link:focus {
-    color: $accent-color;
-  }
 }
 
 .auth-nav-link {
@@ -30,17 +25,22 @@
 
   transition: color $timing-function-bezier;
 
-  .icon-mail {
-    width: 16px;
-    height: 11.2px;
-    margin-right: 10px;
-    fill: currentColor;
+  &:hover,
+  &:focus {
+    color: $accent-color;
   }
+}
 
-  .icon-phone {
-    width: 10px;
-    height: 15px;
-    margin-right: 10px;
-    fill: currentColor;
-  }
+.icon-mail {
+  width: 16px;
+  height: 11.2px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.icon-phone {
+  width: 10px;
+  height: 15px;
+  margin-right: 10px;
+  fill: currentColor;
 }

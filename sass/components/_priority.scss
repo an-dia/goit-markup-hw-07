@@ -3,15 +3,6 @@
   display: flex;
   flex-wrap: wrap;
 
-  &-item {
-    width: calc((100% - 90px) / 4);
-    margin-right: 30px;
-  }
-
-  &-item:nth-child(4n) {
-    margin-right: 0;
-  }
-
   &-title {
     margin-top: 0;
     margin-bottom: 10px;
@@ -28,6 +19,15 @@
     margin-bottom: 0;
     font-size: 14px;
     line-height: 1.7;
+  }
+}
+
+.priority-item {
+  width: calc((100% - 90px) / 4);
+  margin-right: 30px;
+
+  &:nth-child(4n) {
+    margin-right: 0;
   }
 }
 

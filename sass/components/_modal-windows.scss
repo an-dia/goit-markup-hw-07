@@ -1,4 +1,4 @@
-/*Backdrop*/
+// Backdrop
 .backdrop {
   z-index: 2;
   position: fixed;
@@ -20,7 +20,7 @@
   transform: translate(-50%, -50%) scale(0.5);
 }
 
-/*Modal window*/
+// Modal window
 .modal {
   position: absolute;
   position: relative;
@@ -39,7 +39,7 @@
   transition: $timing-function-bezier;
 }
 
-/* Close modal */
+// Close modal
 .close-modal {
   position: absolute;
   top: 8px;
@@ -56,20 +56,20 @@
   background-color: $primary-bg-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
 
-  .icon-close-modal {
-    width: 18px;
-    height: 18px;
-
-    transition: $timing-function-bezier;
-  }
-
   &:hover .icon-close-modal,
   &:focus .icon-close-modal {
     fill: $accent-color;
   }
 }
 
-/*Form*/
+.icon-close-modal {
+  width: 18px;
+  height: 18px;
+
+  transition: $timing-function-bezier;
+}
+
+// Form
 .form {
   width: 448px;
   margin-left: auto;
@@ -115,8 +115,7 @@
     transition: border-color $timing-function-bezier;
   }
 
-  /* Icon */
-
+  // Icon
   .icon-modal {
     position: absolute;
     top: 50%;
@@ -156,6 +155,7 @@
   transform: translate(-27px, -40px) scale(0.86);
 }
 
+// Textarea
 .textarea {
   margin-bottom: 20px;
 
@@ -189,7 +189,7 @@
   }
 }
 
-/* CHECKBOX */
+// CHECKBOX
 
 .checkbox {
   display: flex;
@@ -231,6 +231,7 @@
   }
 }
 
+// Policy
 .policy {
   font-size: 14px;
   line-height: 1.7;

@@ -3,19 +3,20 @@
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+}
 
-  &-item:last-child {
+.filter-item {
+  margin-right: 8px;
+
+  &:last-child {
     margin-right: 0;
-  }
-
-  &-item {
-    margin-right: 8px;
   }
 }
 
 .filter-label {
   display: block;
 }
+
 .filter-input {
   position: absolute;
   width: 1px;

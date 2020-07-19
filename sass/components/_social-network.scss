@@ -2,24 +2,24 @@
   @extend %list;
   display: flex;
   justify-content: space-between;
+}
 
-  &-link {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
+.social-network-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
 
-    color: $primari-social-network-color;
-    text-decoration: none;
+  color: $primari-social-network-color;
+  text-decoration: none;
 
-    transition: $timing-function-bezier;
-    transition-property: color, background-color;
-  }
+  transition: $timing-function-bezier;
+  transition-property: color, background-color;
 
-  &-link:hover,
-  &-link:focus {
+  &:hover,
+  &:focus {
     color: $white-text-color;
     background-color: $accent-color;
   }
