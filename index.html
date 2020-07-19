@@ -503,8 +503,8 @@
             </address>
           </div>
           <!-- Второй контейнер -->
-          <div class="join-in join">
-            <b class="join-text">Присоединяйтесь</b>
+          <div class="join-in">
+            <b class="footer-caption">Присоединяйтесь</b>
             <ul class="social-network">
               <li class="join-in-item">
                 <a
@@ -554,25 +554,25 @@
           </div>
           <!-- Третий контейнер -->
           <div class="join">
-            <b class="join-text">Подпишитесь на рассылку</b>
-            <div class="conteiner-form">
-              <form class="form-footer">
-                <label class="footer-form" for="email"></label>
+            <b class="footer-caption">Подпишитесь на рассылку</b>
+            <!-- <div class="join-conteiner"> -->
+            <form class="join-form">
+              <label>
                 <input
-                  class="placeholder-footer"
+                  class="join-form-input"
                   type="email"
                   name="email"
-                  id="email"
                   placeholder="E-mail"
                 />
-              </form>
-              <button class="submit button-icon">
+              </label>
+              <button class="join-button">
                 Подписаться
                 <svg class="icon-plane">
                   <use href="./images/sprite.svg#icon-plane"></use>
                 </svg>
               </button>
-            </div>
+            </form>
+            <!-- </div> -->
           </div>
         </div>
       </div>
@@ -635,9 +635,9 @@
               ></textarea>
               <span class="form-comment">Комментарий</span>
             </label>
-            <label class="conteiner-checkbox">
+            <label class="checkbox">
               <input
-                class="modal-checkbox"
+                class="checkbox-input"
                 required
                 type="checkbox"
                 name="terms-of-use"
@@ -646,18 +646,15 @@
               <svg class="icon-check">
                 <use href="./images/sprite.svg#icon-no-check"></use>
               </svg>
-              <span class="terms-of-use">
+              <span class="policy">
                 Соглашаюсь с рассылкой и принимаю
-                <a
-                  class="terms-of-use link-use"
-                  href=""
-                  aria-label="Условия договора "
+                <a class="policy-link" href="" aria-label="Условия договора "
                   >Условия договора</a
                 >
               </span>
             </label>
-            <div class="conteiner-submit">
-              <button class="submit-modal submit" type="submit">
+            <div class="conteiner-button">
+              <button class="button-modal" type="submit">
                 Отправить
               </button>
             </div>

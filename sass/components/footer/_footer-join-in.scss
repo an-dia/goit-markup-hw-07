@@ -1,9 +1,13 @@
 /*Контейнер 2*/
 .join-in {
   margin-right: 94px;
+
+  &-item:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
-.join-text {
+.footer-caption {
   display: block;
   color: #ffffff;
   font-weight: 700;
@@ -11,10 +15,6 @@
   line-height: 1.2;
   text-transform: uppercase;
   margin-bottom: 20px;
-}
-
-.join-in-item:not(:last-child) {
-  margin-right: 10px;
 }
 
 .social-network-footer {
