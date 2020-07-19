@@ -1,10 +1,11 @@
 .footer {
   background-color: #2f303a;
+}
 
-  .conteiner {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
+.footer-conteiner {
+  @extend .conteiner;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .flex-footer {

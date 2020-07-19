@@ -37,36 +37,35 @@
   .card-img {
     @extend %img;
   }
-
-  .card-img-description {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 63px 24px;
-    width: 100%;
-    height: 100%;
-
-    color: $white-text-color;
-    background-color: rgba(33, 150, 243, 0.9);
-
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.56;
-
-    transform: translateY(100%);
-    transition: $timing-function-bezier, $timing-function-bezier;
-    transition-property: opacity, transform;
-  }
 }
+.card-img-description {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
 
-.portfolio-link:hover .card-img-description,
-.portfolio-link:focus .card-img-description {
-  opacity: 1;
-  transform: translateY(0);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 63px 24px;
+  width: 100%;
+  height: 100%;
+
+  color: $white-text-color;
+  background-color: rgba(33, 150, 243, 0.9);
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+
+  transform: translateY(100%);
+  transition: $timing-function-bezier, $timing-function-bezier;
+  transition-property: opacity, transform;
+
+  .portfolio-link:hover &,
+  .portfolio-link:focus & {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .card-content {

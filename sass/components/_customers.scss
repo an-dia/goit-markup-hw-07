@@ -31,13 +31,13 @@
     border: 1px solid $accent-color;
     color: $accent-color;
   }
+}
 
-  .icon-logo {
-    fill: currentColor;
-  }
+.icon-logo {
+  fill: currentColor;
 
-  &:hover .icon-logo,
-  &:focus .icon-logo {
+  .customers-link:hover &,
+  .customers-link:focus & {
     fill: $accent-color;
   }
 }

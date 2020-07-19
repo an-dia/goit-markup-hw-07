@@ -1,4 +1,4 @@
-// Контейнер 3 
+// Контейнер 3
 .join-form {
   display: flex;
   justify-content: center;
@@ -24,18 +24,17 @@
   align-items: center;
   margin-left: 12px;
   padding: 10px 29px;
+}
+.icon-plane {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  fill: $white-text-color;
 
-  .icon-plane {
-    width: 24px;
-    height: 24px;
-    margin-left: 10px;
-    fill: $white-text-color;
+  transition: transform $timing-function-bezier;
 
-    transition: transform $timing-function-bezier;
-  }
-
-  &:hover .icon-plane,
-  &:focus .icon-plane {
+  .join-button:hover &,
+  .join-button:focus & {
     transform: translate(25px, -50px) scale(1.2);
   }
 }
